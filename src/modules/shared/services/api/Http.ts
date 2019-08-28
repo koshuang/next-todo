@@ -1,5 +1,4 @@
 import 'isomorphic-unfetch';
-import getConfig from 'next/config';
 import { stringify } from 'query-string';
 
 import { HttpModel } from '@Interfaces';
@@ -7,8 +6,8 @@ import { HttpModel } from '@Interfaces';
 /**
  * @module Http
  */
-const config = getConfig() || {};
-const { API_KEY, API_URL } = config.publicRuntimeConfig || {};
+const API_URL = process.env.API_URL;
+const API_KEY = process.env.API_KEY;
 
 const BaseUrl = `${API_URL}/api`;
 

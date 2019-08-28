@@ -1,5 +1,3 @@
-import '../src/assets/styles.less';
-
 import App, { Container, NextAppContext } from 'next/app';
 import * as React from 'react';
 import { Provider } from 'react-redux';
@@ -9,7 +7,7 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 
 import { Page } from 'app';
-import { GlobalStyles } from '@Components/styles/GlobalStyles';
+import { GlobalStyles } from 'app';
 
 import { store, afterComponentDidMount } from 'app';
 
