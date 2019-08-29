@@ -1,55 +1,25 @@
-import { ActionConsts } from '@Definitions';
+import { actionConsts } from '../actionConsts';
 
 import { IWrapperPage } from '@Interfaces';
 
 export const wrapperActions: IWrapperPage.IDispatchProps = {
 	setOptionDrawer: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetOptionDrawer,
+		type: actionConsts.wrapper.setOptionDrawer,
 		payload,
 	}),
 
 	setMobile: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetMobile,
+		type: actionConsts.wrapper.setMobile,
 		payload,
 	}),
 
 	setMobileDrawer: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetMobileDrawer,
-		payload,
-	}),
-
-	setBoxed: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetBoxed,
-		payload,
-	}),
-
-	setSidebarTheme: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetSidebarTheme,
-		payload,
-	}),
-
-	setSidebarPopup: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetSidebarPopup,
-		payload,
-	}),
-
-	setSidebarIcons: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetSidebarIcons,
-		payload,
-	}),
-
-	setCollapse: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetCollapse,
-		payload,
-	}),
-
-	setWeak: (payload?: boolean) => ({
-		type: ActionConsts.Wrapper.SetWeak,
+		type: actionConsts.wrapper.setMobileDrawer,
 		payload,
 	}),
 
 	setup: (payload?: any) => ({
-		type: ActionConsts.Wrapper.Setup,
+		type: actionConsts.wrapper.setup,
 		payload,
 	}),
 };

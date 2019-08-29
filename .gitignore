@@ -78,3 +78,6 @@ typings/
 
 #Docusaurus website build folder
 documentation/website/build
+
+#Webpack bundle analyzer output folder
+bundle
