@@ -14,15 +14,7 @@ function Component(props) {
 
   return (
     <>
-      {image && (
-        <Card
-          hoverable
-          style={{ width: 480 }}
-          cover={<img alt="example" src={image.url} />}
-        >
-          <Meta title={image.title} description={image.explanation} />
-        </Card>
-      )}
+      Hi
     </>
   );
 }

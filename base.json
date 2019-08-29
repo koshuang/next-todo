@@ -6,13 +6,9 @@
     "paths": {
       "@Interfaces": ["./src/Interfaces"],
       "@Interfaces/*": ["./src/Interfaces/*"],
-      "@Definitions": ["./src/Definitions"],
       "app": ["./src/app"],
-      "app/*": ["./src/app/*"],
-      "demo": ["./src/modules/demo"],
-      "demo/*": ["./src/modules/demo/*"],
       "shared": ["./src/modules/shared"],
-      "shared/*": ["./src/modules/shared/*"]
+      "todo-list": ["./src/modules/todo-list"]
     }
   }
 }

@@ -22,7 +22,7 @@ type IMapPayload = any;
  * REDUCER
  */
 /* eslint-disable complexity */
-export const demoReducer = (state = INITIAL_STATE, action: IAction<IMapPayload>) => {
+export const todoListReducer = (state = INITIAL_STATE, action: IAction<IMapPayload>) => {
   switch (action.type) {
     case actionConsts.demo.setPlanetImage:
       return {
